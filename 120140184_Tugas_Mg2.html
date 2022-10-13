@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Praktikum Minggu Kedua</title>
+</head>
+<style>
+    header{
+        image-resolution: maxwidth;
+        background-color: rgb(3, 218, 146);
+        border-style: hidden;
+    }
+    main{
+        border-style: solid;
+        border-color: rgb(230, 219, 219);
+    }
+    h1{
+        font-size: 55px;
+        color: rgb(255, 255, 255);
+        text-align: left;
+        align-items: left;
+        line-height: 1.5;
+    }
+    h2{
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        text-align: left;
+        align-items: left;
+    }
+    h3{
+        width: 50%;
+        height: 40px;
+        background-color: rgb(3, 218, 146);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        border-style: groove;
+        border-radius: 5%;
+        border-color: rgb(230, 219, 219);
+    }
+    img.profil{
+        border-radius: 60%;
+    }
+    .navigasi{
+        background-color: rgb(3, 218, 146);
+        border-style: ridge;
+        border-color: rgb(3, 218, 146);
+        font-size: 20px;
+        text-align: right;
+        justify-content: right;
+    }
+    .video{
+        width: 45%;
+        height: 320px;
+        padding-top: 3%;
+        display: flex;
+        float: right;
+    }
+    .tentang{
+        width: 55%;
+        height:150px;
+        background-color: rgb(219, 218, 215);
+        display: flow-root;
+        float: left;
+    }
+    .biodata{
+        width:55%;
+        height:300px;
+        background-color: rgb(219, 218, 215);
+        display: flow-root;
+        float: left;
+    }
+    .pendidikan{
+        width: 43%;
+        background-color: rgb(219, 218, 215); 
+        float:right;
+        text-align: left;  
+    }
+    .medsos{
+        width:50%;
+        height: 300px;
+        background-color: rgb(219, 218, 215);
+    }
+    .pengalaman{
+        width:50%;
+        height: 420px;
+        display: flow-root;
+        text-align: center;
+        background-color: rgb(219, 218, 215);
+        border-color: rgb(3, 218, 146);
+    }
+    footer{
+        display: flow-root;
+        background-color: rgb(3, 218, 146);
+        border-style: solid;
+        border-color: rgb(3, 218, 146);
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+    }
+</style>
+<body>
+    <header>
+        <table>
+            <tr>
+                <td>
+                    <img class="profil" src="http://sso.itera.ac.id/assets/img/20201109100351_rahma_120140184_student_itera_ac_id.jpg" 
+                    alt="gambar" width="200" height="250">
+                </td>
+                <td>
+                        <h1>RAHMA WATI</h1>
+                        <h2>Teknik Informatika - 120140184</h2>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <nav>
+        <div class="navigasi">
+            <a href="#aboutme"> About Me</a>
+            <a href="#datadiri"> Data Diri</a>
+            <a href="#riwayatpendidikan"> Riwayat Pendidikan</a>
+            <a href="#pengalaman">Pengalaman Saya</a>
+            <a href="#ikuti">Follow</a>
+        </div>
+    </nav>
+    <aside>
+        <div class="video">
+            <iframe width="550" height="300" src="https://www.youtube.com/embed/w-w0b7JaVWg" title="SISTEM OPERASI" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </aside>
+    <br>
+    <main>
+        <div class="tentang">
+            <h3 id="aboutme">ABOUT ME</h3>
+                <p> Hallo saya Rahma Wati seorang mahasiswi semester 5 dari Intitut Teknologi Sumatera,
+                    seorang mahasiswi yang mempunyai banyak cita-cita besar dihidupnya, namun belum punya
+                    kemampuan lebih untuk menggapainya. Saya sangat menyukai hal baru dan unik dihidup Saya.</p>
+            <br>
+            <br>
+        </div>
+        <br>
+        <div class="biodata">
+            <h3 id="datadiri" >DATA PRIBADI</h3>
+                <Table>
+                    <tr>
+                        <td>Nama</td>
+                        <td>:</td>
+                        <td>RAHMA WATI</td>
+                    </tr>
+                    <tr>
+                        <td>Tempat/Tanggal Lahir</td>
+                        <td>:</td>
+                        <td>Bandar Lampung, 08 September 2001</td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>:</td>
+                        <td>Perempuan</td>
+                    </tr>
+                    <tr>
+                        <td>Agama</td>
+                        <td>:</td>
+                        <td>Islam</td>
+                    </tr>
+                    <tr>
+                        <td>Alamat</td>
+                        <td>:</td>
+                        <td>Jl. Hi Agus Salim Tanjung Karang Pusat Bandar Lampung</td>
+                    </tr>
+                    <tr>
+                        <td>No. Handphone</td>
+                        <td>:</td>
+                        <td>6283138800039</td>
+                    </tr>
+                    <tr>
+                        <td>E-mail</td>
+                        <td>:</td>
+                        <td>rahma.120140184@student.itera.ac.id</td>
+                    </tr>
+                </Table>
+        </div>
+        <br>
+        <div class="pendidikan">
+            <h3 id="riwayatpendidikan">RIWAYAT PENDIDIKAN</h3>
+                <table>   
+                    <tr>
+                        <td>Perguruan Tinggi</td>
+                        <td>:</td>
+                        <td>Institut Teknologi Sumatera</td>
+                    </tr>
+                    <tr>
+                        <td>Sekolah Menengah Kejuruan</td>
+                        <td>:</td>
+                        <td>SMK Trisakti Jaya Bandar Lampung</td>
+                    </tr>
+                    <tr>
+                        <td>Sekolah Menengah Pertama</td>
+                        <td>:</td>
+                        <td>SMP Negeri 17 Bandar Lampung</td>
+                    </tr>
+                </table>
+        </div>
+        <br>
+        <div class="pengalaman">
+            <h3 id="pengalaman">PENGALAMAN</h3>
+                <table border="1">
+                    <tr style="border-color: rgb(3, 218, 146);">
+                        <th>NO</th>
+                        <th>NAMA KEGIATAN</th>
+                        <th>POSISI</th>
+                        <th>TAHUN</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td>PKL - Badan Pemeriksa Keuangan</td>
+                        <td>Staff Tata Usaha</td>
+                        <td>2018</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Rohis SMK Trisakti Bandar Lampung</td>
+                        <td>Wakil Ketua Rohis</td>
+                        <td>2020</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Divisi Kerohanian - HMIF</td>
+                        <td>Staff Kerohanian</td>
+                        <td>2022</td>
+                    </tr>
+                </table>
+        </div>
+        <div class="medsos">
+            <h3 id="ikuti">FOLLOW ME</h3>
+        <form>
+            <label for="Search">Search :</label>
+            <input type="text" id="search" name="search" >
+        </form>
+       
+        <p>Sudah Follow Sosial Media Saya ?</p>
+        <form >
+            <input type="radio" id="belum" name="fav_belum" value="Belum">
+            <label for="belum">Belum</label><br>
+            <input type="radio" id="sudah" name="fav_sudah" value="Sudah">
+            <label for="Sudah">Sudah</label><br>
+        <br>
+            <input type="checkbox" name="sosmed" id="instagram" value="instagram">
+            <label for="instagram">Instagram</label><br>
+            <input type="checkbox" name="sosmed" id="linkedin" value="linkedin">
+            <label for="linkedin">Linkedlin</label><br>
+            <input type="checkbox" name="sosmed" id="facebook" value="facebook">
+            <label for="facebook">Facebook</label><br>
+            <left>
+                <button type="button">Follow</button>
+            </left>
+        <br>
+    </main>
+    <footer>
+        <center>
+            <h1>Nice to Meet You</h1>
+        </center>
+
+    </footer>
+</body>
+</html>
